@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    
+    
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 10px 14px 24px;
+    color: white;
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 30px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+header nav ul a:hover{
+    background-color: #ff3333;
+    color: #fff;
+    transition: .4s;
+    
+}
+
+header nav div{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+header nav div span{
+    font-size: 2rem;
+}
+
+.container__information{
+    background-image: url(../images/background_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: 900px;
+
+}
+
+
+.container__info_sect{
+    position: relative;
+    text-align: center;
+    width: 700px;
+    position: relative ;
+    top: 300px;
+    color: white;
+    left: 100px;
+    z-index: 10;
+}
+
+.container__info_sect h1{
+    color: #ff3333;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container__info_sect h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container__info_sect button{
+    position: relative;
+    padding: 10px 25px;
+    background-color: #ff3333;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.container__info_sect button:hover{
+    transform: translate(0px, -5px);
+    transition: .3s;
+}
+
+.container__info_sect a{
+    position: absolute;
+}
+
+
+.slidePrev{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    top: 400px;
+    left: 50px;
+    cursor: pointer;
+}
+
+
+.slideNext{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    top: 400px;
+    left: 1300px;
+    cursor: pointer;
+}
+
+
